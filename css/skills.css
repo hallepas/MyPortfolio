@@ -1,0 +1,36 @@
+[data-skill] {
+  position: relative;
+  display: table;
+  margin: 2rem auto;
+}
+[data-skill] span {
+  text-align: center;
+  margin: -.68rem 0 0;
+  position: absolute;
+  top: 48%;
+  left: 0px;
+  width: 100%;
+  font-size: 20px;
+}
+[data-skill] svg {
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+[data-skill] svg .back {
+  stroke: lightgrey;
+  stroke-width: 15;
+  fill: none;
+}
+[data-skill] svg .front {
+  stroke: #EB5C8D;
+  stroke-width: 15;
+  fill: none;
+  background: red;
+}
+
+
+figure svg{
+	height: 100%;
+	width:100%;
+}
